@@ -1,32 +1,25 @@
 # Project 08 Evidence Index — SecureBank Zero Trust, IAM & Access-Control Risk
 
-This evidence index identifies the strongest screenshots to retain for the portfolio case study. The screenshots originate from an educational GRC simulation and are presented as training evidence rather than production banking-assurance evidence.
+This evidence index documents the final curated screenshots retained for the portfolio case study. The evidence originates from an educational GRC simulation and is presented as training evidence rather than production banking-assurance evidence.
 
-## Recommended Evidence Set
+## Final Recruiter-Facing Evidence Set
 
-1. **Asset inventory dashboard** — six total production assets, all classified Critical.
-2. **Core Banking System asset record** — Critical application.
-3. **Customer Database asset record** — Critical database containing sensitive banking data.
-4. **Online Banking Portal asset record** — Critical customer-facing application.
-5. **Payment Processing System asset record** — Critical financial-transaction application.
-6. **Identity and Access Management System asset record** — Critical security dependency.
-7. **Security Monitoring and SIEM Platform asset record** — Critical detection and visibility platform.
-8. **Completed asset inventory table** — demonstrates asset ownership, classification and production environment.
-9. **Privileged Account Compromise risk** — 4 × 5 = 20, Critical, with rationale.
-10. **Compromised privileged-credentials threat statement** — explicit threat-vulnerability-impact formulation.
-11. **Weak-authentication risk affecting Online Banking Portal** — 4 × 5 = 20, Critical.
-12. **Online Banking risk rationale** — account takeover, fraudulent transaction and customer-data exposure consequences.
-13. **Malicious-insider/excessive-privilege risk affecting Customer Database** — 3 × 5 = 15, High.
-14. **Insider-risk rationale** — least-privilege and sensitive-data implications.
-15. **Excessive privilege risk affecting Payment Processing System** — 3 × 5 = 15, High.
-16. **Payment-processing risk rationale** — fraud, financial loss, service disruption and regulatory exposure.
-17. **IAM privilege-escalation risk** — 4 × 5 = 20, Critical.
-18. **IAM privilege-escalation rationale** — demonstrates systemic access risk across multiple banking systems.
+1. `01-critical-banking-asset-inventory.png` — asset inventory summary showing six production banking assets, all classified Critical.
+2. `02-banking-asset-inventory-table.png` — completed asset inventory table demonstrating ownership, classification and production environment.
+3. `03-privileged-account-critical-risk.png` — privileged-account compromise risk scored 4 × 5 = 20, Critical.
+4. `04-online-banking-authentication-risk.png` — weak-authentication risk affecting the Online Banking Portal, scored 4 × 5 = 20, Critical.
+5. `05-customer-database-access-risk.png` — excessive-privilege and insider-access risk affecting sensitive customer data, scored 3 × 5 = 15, High.
+6. `06-payment-processing-privilege-risk.png` — excessive-privilege risk affecting payment processing, scored 3 × 5 = 15, High.
+7. `07-iam-privilege-escalation-risk.png` — IAM privilege-escalation risk scored 4 × 5 = 20, Critical, demonstrating systemic access risk across critical banking services.
 
-## Recruiter-Facing Evidence Order
+## Evidence Narrative
 
-Lead with the completed six-asset inventory, then show privileged-account compromise, weak authentication, insider/excessive privilege and IAM privilege escalation. This creates a coherent story: **critical banking assets → identity/access threats → likelihood-impact scoring → business consequences → Zero Trust/IAM control needs**.
+The selected sequence is designed to tell a coherent Zero Trust and IAM risk story:
+
+**critical banking assets → privileged access exposure → weak authentication → excessive access to sensitive data → payment-system privilege risk → systemic IAM privilege escalation**.
+
+This evidence demonstrates asset criticality, access-control risk assessment, likelihood-impact scoring, privileged-access analysis and the business consequences of weak identity and authorization controls in a banking environment.
 
 ## Evidence Handling Note
 
-Use screenshots with readable completed fields and decision rationales. Avoid duplicate entry screens unless they prove a different assessment step. Suggested filenames include `01-critical-asset-inventory.png`, `02-privileged-account-critical-risk.png`, `03-online-banking-authentication-risk.png`, `04-insider-database-risk.png`, `05-payment-processing-privilege-risk.png`, and `06-iam-privilege-escalation-risk.png`.
+Only completed, readable and decision-relevant screenshots are retained. Duplicate forms and repetitive entry screens were intentionally excluded so the final evidence set remains concise, credible and recruiter-friendly.
