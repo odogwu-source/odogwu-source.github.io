@@ -9,9 +9,9 @@ Eight completed governance, risk and compliance case studies are organised here.
 | 03 | [DataFlow — SOC 2 Audit Readiness](./03-DataFlow-SOC2-Audit-Readiness/) | Control evidence, gap analysis and audit readiness | Documented |
 | 04 | [EuroShop — GDPR Compliance](./04-EuroShop-GDPR-Compliance/) | Privacy governance and data-processing risk | Documented |
 | 05 | [HealthTech — Incident Response & GRC](./05-HealthTech-Incident-Response-GRC/) | Incident governance, ISO 27001 controls and resilience | Documented |
-| 06 | [CriticalOps — OT/SCADA Business Continuity & Disaster Recovery](./06-CriticalOps-OT-SCADA-BCDR/) | Critical infrastructure, BCDR, OT resilience and ISO 27001 | Evidence index prepared |
-| 07 | [MindfulAI — AI Governance & Responsible AI Risk](./07-MindfulAI-AI-Governance-Risk/) | AI governance, model risk, bias, privacy and human oversight | Evidence index prepared |
-| 08 | [SecureBank — Zero Trust, IAM & Access-Control Risk](./08-SecureBank-Zero-Trust-IAM-Risk/) | Banking IAM, privileged access, Zero Trust and risk assessment | Evidence index prepared |
+| 06 | [CriticalOps — OT/SCADA Business Continuity & Disaster Recovery](./06-CriticalOps-OT-SCADA-BCDR/) | Critical infrastructure, BCDR, OT resilience and ISO 27001 | Evidence-backed |
+| 07 | [MindfulAI — AI Governance & Responsible AI Risk](./07-MindfulAI-AI-Governance-Risk/) | AI governance, model risk, bias, privacy and human oversight | Evidence-backed |
+| 08 | [SecureBank — Zero Trust, IAM & Access-Control Risk](./08-SecureBank-Zero-Trust-IAM-Risk/) | Banking IAM, privileged access, Zero Trust and risk assessment | Evidence-backed |
 
 ## Core Capabilities Demonstrated
 Risk assessment · risk registers · control mapping · third-party risk management · privacy governance · audit readiness · evidence management · remediation tracking · incident-response governance · business continuity · disaster recovery · OT/SCADA resilience · AI governance · model risk · IAM · privileged access · Zero Trust · policy governance
@@ -20,7 +20,7 @@ Risk assessment · risk registers · control mapping · third-party risk managem
 The projects deliberately span different GRC domains rather than repeating a single compliance exercise. Together they demonstrate cloud and ISO 27001 risk assessment, third-party and PCI DSS risk, SOC 2 readiness, GDPR privacy, incident-response governance, OT/SCADA resilience and BCDR, AI governance, and banking Zero Trust/IAM risk.
 
 ## How to Review the Portfolio
-For each numbered project, start with its `README.md` for the case-study narrative. Where available, use `EVIDENCE.md` and the `evidence/` directory to review the supporting simulation records and the recommended recruiter-facing evidence sequence.
+For each numbered project, start with its `README.md` for the case-study narrative. Where available, use `EVIDENCE.md` and the `evidence/` directory to review the supporting simulation records and the curated recruiter-facing evidence sequence.
 
 ## Evidence & Ethics Statement
 All organisations and scenarios in these case studies are simulated. Screenshots and records are retained as educational evidence only. No project is represented as a production audit, consulting engagement or assessment performed for a real client.
