@@ -1,22 +1,32 @@
-# SOC Portfolio
+# Security Operations (SOC) Portfolio
 
-This section contains hands-on Security Operations and defensive-security casework.
+Hands-on defensive-security casework demonstrating alert triage, evidence analysis, incident classification, analyst documentation, escalation and remediation reasoning.
 
-## Current Evidence
-### SOC Phishing Investigation & Incident Triage
-Hands-on investigation work covering phishing alert triage, SIEM correlation, IOC analysis, URL/IP review, True/False Positive classification, 5Ws analyst documentation, escalation and remediation.
+> **Portfolio note:** SOC labs and simulations are identified as training work. The purpose is to demonstrate investigation methodology and analyst judgement, not to present simulated incidents as production SOC employment.
 
-[Open SOC investigation repository](https://github.com/odogwu-source/SOC-PHISHING-INVESTIGATION)
+## Featured Investigation
+### Phishing Investigation & Incident Triage
+A documented investigation workflow covering phishing alert triage, SIEM correlation, email/IOC analysis, URL and IP review, True/False Positive classification, 5Ws analyst documentation, escalation and remediation.
 
-## Portfolio Structure Going Forward
-Future SOC cases will be organised here by investigation type, including:
-- Phishing investigations
-- SIEM alert triage
-- EDR investigations
-- Malware investigations
-- Incident response cases
-- Detection and log analysis
+[Open the SOC Phishing Investigation repository](https://github.com/odogwu-source/SOC-PHISHING-INVESTIGATION)
 
-Each case will include evidence screenshots, analyst reasoning, incident classification, remediation actions and lessons learned.
+## Analyst Workflow Demonstrated
+**Alert → Validate evidence → Correlate indicators → Determine scope → Classify → Document 5Ws → Escalate/contain → Recommend remediation → Record lessons learned**
+
+## Core Skills Demonstrated
+- Phishing and suspicious-email triage
+- SIEM/log investigation
+- IOC and URL/IP analysis
+- True Positive / False Positive classification
+- 5Ws incident documentation
+- Escalation and remediation reasoning
+- Evidence capture and case documentation
+- Security-event communication
+
+## Portfolio Development
+Additional evidence-backed SOC case studies will be added progressively from completed training investigations, including SIEM alert triage, EDR investigations, malware-related alerts, incident-response cases and detection/log analysis. Only completed work with supportable evidence should be presented as a finished case study.
+
+## Evidence & Ethics Statement
+Screenshots, logs and case records in this portfolio are retained as educational evidence. Sensitive or identifying information should be redacted where necessary. Training scenarios are not represented as incidents handled for real clients or employers.
 
 [Return to main portfolio](../index.html)
