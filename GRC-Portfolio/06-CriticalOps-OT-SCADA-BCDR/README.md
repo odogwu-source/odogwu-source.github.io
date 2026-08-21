@@ -1,72 +1,66 @@
-# Project 06 — OT/SCADA Business Continuity & Disaster Recovery Assessment
+# Project 06 — CriticalOps OT/SCADA Business Continuity & Disaster Recovery Assessment
+
+> **Portfolio case study:** Educational/simulated OT/SCADA resilience assessment. No real industrial-control environment was accessed, tested or audited.
 
 ## Executive Summary
-This hands-on GRC simulation assessed business continuity and disaster recovery risks in a critical-infrastructure environment supporting SCADA, water-treatment and power-grid operations. The work covered critical-asset identification, continuity-risk assessment, ISO/IEC 27001 control mapping, control-effectiveness evaluation, and planned recovery exercises. The assessment prioritized ransomware, extended power failure, backup failure and physical-site disruption as material threats to operational resilience.
+This project assesses business continuity and disaster-recovery risk in a simulated operational technology (OT)/SCADA environment. It demonstrates how critical operational assets, ransomware exposure, backup/recovery controls and redundancy weaknesses can be converted into risk-based resilience decisions.
 
 ## Scenario
-CriticalOps Inc operates operational-technology services supporting water-treatment facilities and power-grid substations. The simulated engagement required a structured BCDR assessment of the systems and dependencies needed to sustain or restore essential operations following cyber, infrastructure or physical disruption.
+A simulated critical-operations environment depends on OT/SCADA assets whose prolonged loss could disrupt essential operations. The assessment evaluates ransomware and availability threats, recovery capability and whether resilience controls are sufficient for high-impact systems.
 
 ## Objectives
-- Identify and classify five critical production assets.
-- Assess four material continuity risks using likelihood and impact scoring.
-- Document eight business-continuity and disaster-recovery controls.
-- Map relevant safeguards to ISO/IEC 27001 controls.
-- Evaluate control effectiveness and identify resilience gaps.
-- Plan two exercises to validate technical recovery and organizational continuity.
+- Identify and classify critical OT/SCADA assets.
+- Evaluate ransomware, backup and availability risks.
+- Assess recovery and redundancy controls.
+- Prioritise continuity improvements based on operational impact.
+- Document evidence and risk rationale for management review.
 
 ## Environment / Tools
-- Educational GRC simulation platform
-- Risk register and 5x5 likelihood-impact scoring
-- Control catalog and effectiveness assessment
-- ISO/IEC 27001:2022 control mapping
-- Business Impact Analysis and BCDR concepts
-- SCADA / OT critical-infrastructure scenario
+Educational GRC simulation, OT/SCADA asset inventory, risk register, likelihood-impact matrix, backup/recovery assessment, redundancy review and evidence screenshots.
 
 ## Methodology
-1. Established the critical-asset inventory and ownership.
-2. Identified cyber, utility, recovery and physical-disaster threat scenarios.
-3. Rated likelihood and impact and calculated risk scores.
-4. Documented rationale for each risk decision.
-5. Selected and assessed continuity and recovery controls.
-6. Mapped controls to relevant ISO/IEC 27001:2022 Annex A references.
-7. Identified partially effective controls requiring additional assurance.
-8. Planned technical disaster-recovery and business-continuity exercises.
+1. Built and reviewed the critical-asset inventory.
+2. Identified availability and ransomware risk scenarios.
+3. Applied likelihood-impact scoring and documented rationale.
+4. Assessed backup/recovery and redundancy control effectiveness.
+5. Prioritised treatment actions according to operational consequence.
 
 ## Investigation or Assessment
-Five critical production assets were assessed: the SCADA Control System, Power Grid Control Server, Water Treatment Operations Database, OT Network Infrastructure, and OT Configuration & Backup Repository. Four continuity scenarios were then evaluated: ransomware disruption of SCADA operations, extended power failure, backup failure preventing timely recovery, and physical disaster causing facility unavailability.
+The assessment examined whether critical assets were inventoried, whether ransomware could create unacceptable operational disruption, whether backups were sufficiently recoverable and whether redundancy provided genuine resilience rather than a single hidden dependency.
 
 ## Key Findings
-- Ransomware disruption of SCADA and critical operational systems was the highest-rated scenario at **20/25 — Critical**.
-- Extended power failure was rated **15/25 — High** because a prolonged outage could disable multiple critical OT dependencies.
-- Backup failure preventing restoration was rated **15/25 — High**, highlighting recoverability as a core resilience dependency.
-- Physical disaster causing facility unavailability was rated **10/25 — Medium**: less likely, but potentially catastrophic.
-- Redundancy and end-to-end recovery assurance were treated as areas requiring continued validation rather than assumed to be fully effective.
+The curated evidence demonstrates a Critical ransomware exposure, a material backup-failure risk, a documented backup/recovery control and a redundancy-effectiveness gap. Together these findings show that resilience requires both recoverable data and alternative operational capability.
 
 ## Risk / Security Analysis
-The assessment demonstrated that availability and recoverability are dominant risk drivers in critical-infrastructure environments. SCADA services depend on interconnected servers, networks, operational data, power and recovery repositories; therefore a single disruption can propagate across several assets. Risk decisions were documented using likelihood, impact, affected assets and operational consequences rather than severity labels alone.
+For OT/SCADA environments, availability and safety-related consequences can dominate traditional information-security priorities. Recovery controls must therefore be evaluated for actual restoration capability, isolation, dependency and operational recovery time—not simply for the existence of backups.
 
 ## Controls and Recommendations
-Controls documented included business-continuity planning, ICT readiness for continuity, protected backups and restoration, infrastructure redundancy, incident-response coordination, BCDR testing, emergency communications, and critical-supplier continuity management. Key recommendations are to strengthen IT/OT segmentation, maintain protected recovery copies of critical configurations, test restoration and failover regularly, eliminate remaining single points of failure, enforce strong privileged-access controls, validate supplier recovery capability, and exercise both technical recovery and executive continuity decision-making.
+Maintain offline/immutable backup capability where appropriate; define and test recovery procedures; establish business-defined RTO/RPO targets; test restoration; reduce single points of failure; segment OT and IT networks; restrict privileged access; monitor critical systems; maintain incident and continuity playbooks; and conduct periodic resilience exercises.
 
 ## Evidence
-Supporting screenshots document the asset inventory, risk register, likelihood-impact scoring, decision rationales, ISO/IEC 27001 control mappings, effectiveness ratings, and planned BCDR exercises. Evidence is retained as educational simulation output and is not presented as production audit evidence.
+The final recruiter-facing evidence set contains six screenshots:
+
+1. `01-asset-inventory-summary.png`
+2. `02-risk-register-summary.png`
+3. `03-ransomware-critical-risk.png`
+4. `04-backup-failure-high-risk.png`
+5. `05-backup-recovery-control.png`
+6. `06-redundancy-effectiveness-gap.png`
+
+The sequence tells the assessment story: **assets → risk register → ransomware → backup failure → recovery control → redundancy gap**.
 
 ## Skills Demonstrated
-GRC · OT/ICS and SCADA security · critical-infrastructure resilience · asset classification · risk-register development · likelihood and impact analysis · BCDR · control-effectiveness assessment · ISO/IEC 27001 control mapping · ransomware risk analysis · backup governance · recovery planning
+OT/SCADA risk assessment; BCDR analysis; ransomware-risk analysis; asset criticality; risk scoring; backup/recovery governance; redundancy assessment; resilience recommendations.
 
 ## Frameworks / Standards Referenced
-- ISO/IEC 27001:2022
-- A.5.29 — Information security during disruption
-- A.5.30 — ICT readiness for business continuity
-- A.8.13 — Information backup
-- A.8.14 — Redundancy of information processing facilities
-- Business continuity and disaster recovery principles
-
-## Project Outcomes
-Produced a structured OT/SCADA continuity-risk assessment linking critical assets to threat scenarios, quantified risk decisions, recovery controls and planned validation exercises. The project demonstrates how governance requirements translate into operational resilience decisions in a critical-infrastructure context.
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-82 Rev. 3 — Guide to Operational Technology (OT) Security
+- NIST SP 800-34 Rev. 1 — Contingency Planning Guide for Federal Information Systems
+- ISO 22301:2019 — Business Continuity Management Systems
+- IEC 62443 series — industrial automation and control systems security
 
 ## Lessons Learned
-BCDR assurance depends on more than having written plans. Recovery capability must be supported by protected backups, resilient dependencies, clear ownership, tested failover, realistic exercises and evidence that recovery objectives can actually be met.
+A backup is not equivalent to recoverability, and redundancy is not equivalent to resilience. Critical operations require tested recovery paths, understood dependencies and controls designed around operational consequences.
 
 ## Disclaimer
-This project was completed in a simulated educational environment for cybersecurity training and portfolio demonstration. The organisation, systems, risks and assessment activities do not represent a production engagement with a real client.
+This is an educational/simulated OT/SCADA GRC case study. It does not represent a penetration test, safety assessment, audit or assurance engagement against any real industrial-control system.

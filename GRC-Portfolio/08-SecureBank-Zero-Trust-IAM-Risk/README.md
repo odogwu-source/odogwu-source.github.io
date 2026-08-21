@@ -1,70 +1,67 @@
-# Project 08 — Banking Zero Trust, IAM & Access-Control Risk Assessment
+# Project 08 — SecureBank Zero Trust, IAM & Access-Control Risk Assessment
+
+> **Portfolio case study:** Educational/simulated banking IAM assessment. It demonstrates risk and control methodology and is not an assessment of a real bank or financial institution.
 
 ## Executive Summary
-This hands-on GRC simulation assessed identity, access-control and Zero Trust risks in a digital-banking environment. Six critical production assets were mapped, five access-risk scenarios were assessed, Zero Trust controls were documented, and four supporting security policies were created. The project demonstrates how IAM, privileged access, least privilege, segmentation, continuous verification and monitoring reduce systemic risk across core banking services.
+This project evaluates identity and access-management risk across simulated critical banking assets. It demonstrates how privileged-account compromise, weak authentication, excessive access and privilege escalation can create systemic risk, and how Zero Trust principles can guide proportionate access-control improvements.
 
 ## Scenario
-SecureBank Digital operates customer-facing and back-end banking services that depend on strong identity assurance and tightly controlled access. The simulated engagement required a Zero Trust-oriented assessment of critical assets and access risks, followed by documentation of controls and governance policies.
+A simulated banking environment contains critical customer, transaction, identity and monitoring systems. The assessment evaluates whether authentication, privilege management and access-control weaknesses could enable account takeover, fraud, sensitive-data exposure or wider compromise.
 
 ## Objectives
-- Map six critical banking assets.
-- Assess five identity and access-control risks.
-- Document Zero Trust security controls.
-- Establish four supporting Zero Trust policies.
-- Apply likelihood-impact scoring and document decision rationale.
-- Connect access-control weaknesses to financial, regulatory and operational consequences.
+- Identify and classify critical banking assets.
+- Assess privileged-access and authentication risks.
+- Evaluate least-privilege and privilege-escalation exposure.
+- Translate technical IAM weaknesses into business consequences.
+- Recommend Zero Trust-aligned identity and access controls.
 
 ## Environment / Tools
-- Educational GRC simulation platform
-- Asset inventory and criticality classification
-- Risk register and 5x5 likelihood-impact scoring
-- ISO/IEC 27001 control references
-- Zero Trust architecture concepts
-- IAM, MFA, RBAC, least privilege, SIEM and continuous-monitoring concepts
+Educational GRC simulation, critical-asset inventory, IAM/access-control risk register, likelihood-impact matrix and curated evidence screenshots.
 
 ## Methodology
-1. Identified critical production assets and accountable owners.
-2. Classified the assets according to business criticality.
-3. Developed threat-vulnerability-impact risk statements.
-4. Assessed likelihood and impact and calculated risk severity.
-5. Documented decision rationale for each rating.
-6. Designed Zero Trust controls addressing identity, authorization, monitoring and segmentation.
-7. Created policies governing IAM, privileged access, network segmentation/secure access, and continuous monitoring/incident response.
+1. Inventoried critical banking systems and data assets.
+2. Identified identity, authentication and privilege threat scenarios.
+3. Applied likelihood-impact scoring and documented rationale.
+4. Assessed business consequences across confidentiality, integrity and availability.
+5. Recommended preventive, detective and governance controls.
 
 ## Investigation or Assessment
-The six critical assets were the Core Banking System, Customer Database, Online Banking Portal, Payment Processing System, Identity and Access Management System, and Security Monitoring/SIEM Platform. Access-risk scenarios included privileged-account compromise, weak authentication against online banking, malicious-insider misuse of excessive privileges, payment-system abuse through excessive privileges, and privilege escalation through inadequate IAM controls.
+The assessment considered privileged-account compromise, online-banking authentication, customer-database access, payment-processing privileges and IAM privilege escalation. Particular attention was given to risks capable of crossing system boundaries through trusted identities.
 
 ## Key Findings
-- Privileged-account compromise was rated **20/25 — Critical**.
-- Weak authentication affecting the Online Banking Portal was rated **20/25 — Critical**.
-- Malicious-insider misuse of excessive Customer Database privileges was rated **15/25 — High**.
-- Excessive privileges enabling fraudulent payment activity were rated **15/25 — High**.
-- IAM privilege escalation was rated **20/25 — Critical**.
-- Identity infrastructure represents a systemic dependency: compromise can enable access across several downstream banking systems.
+The evidence demonstrates critical privileged-access and authentication exposure alongside high-impact database and payment-processing access risks. IAM privilege escalation is especially significant because compromise of the identity control plane can affect multiple downstream systems.
 
 ## Risk / Security Analysis
-The assessment demonstrated that identity is a primary security control plane in a digital bank. Weak authentication, excessive privileges and compromised administrator accounts can convert a single credential event into broad access to customer data, payment functions and core systems. The Zero Trust approach therefore emphasizes explicit verification, least privilege, strong authentication, segmentation and continuous monitoring rather than implicit trust based on network location.
+Identity is a primary security control plane. Excessive standing privilege, weak authentication and inadequate access governance can turn a single compromised account into broad enterprise exposure. Zero Trust therefore requires explicit verification, least privilege and continuous evaluation rather than implicit trust based on network location.
 
 ## Controls and Recommendations
-Controls included MFA for privileged accounts, least-privilege enforcement, role-based access control, secure authorization practices, segmentation and continuous monitoring. Recommended treatment includes centralized MFA, privileged-access management, periodic entitlement reviews, segregation of duties, joiner-mover-leaver governance, strong customer authentication, privileged-session monitoring, network micro-segmentation, SIEM correlation for anomalous identity activity, and rapid revocation/containment procedures.
+Require phishing-resistant MFA where feasible for privileged/high-risk access; implement least privilege and RBAC/ABAC as appropriate; use privileged access management; separate administrative identities; adopt just-in-time/time-bound privileged access; perform periodic access reviews; monitor anomalous authentication and privilege changes; protect service accounts and secrets; segment critical services; and maintain auditable joiner-mover-leaver processes.
 
 ## Evidence
-Supporting screenshots document the six-asset inventory, access-risk statements, likelihood-impact scoring, decision rationales, Zero Trust control entries and supporting policy records. Evidence is retained as educational simulation output and not represented as a production assessment of a financial institution.
+The final recruiter-facing evidence set contains seven screenshots:
+
+1. `01-critical-banking-asset-inventory.png`
+2. `02-banking-asset-inventory-table.png`
+3. `03-privileged-account-critical-risk.png`
+4. `04-online-banking-authentication-risk.png`
+5. `05-customer-database-access-risk.png`
+6. `06-payment-processing-privilege-risk.png`
+7. `07-iam-privilege-escalation-risk.png`
+
+The sequence presents: **critical assets → inventory detail → privileged compromise → authentication → sensitive-data access → payment privilege → IAM escalation**.
 
 ## Skills Demonstrated
-GRC · Zero Trust · IAM · privileged access · MFA · RBAC · least privilege · asset classification · threat-scenario development · risk scoring · insider-threat analysis · banking cybersecurity · security monitoring · policy governance · control documentation
+IAM risk assessment; Zero Trust reasoning; privileged-access analysis; authentication risk; least privilege; access governance; risk scoring; banking-system impact analysis; security-control recommendations.
 
 ## Frameworks / Standards Referenced
-- ISO/IEC 27001:2022 control concepts
-- NIST SP 800-207 Zero Trust Architecture concepts
-- NIST Cybersecurity Framework concepts
-- Identity and access-management governance principles
-
-## Project Outcomes
-Produced a structured banking-security case study connecting critical assets to identity-driven risk scenarios, quantified risk decisions, Zero Trust controls and governance policies. The project demonstrates how access-control design can be treated as both a technical security problem and an enterprise risk-management issue.
+- NIST SP 800-207 — Zero Trust Architecture
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-53 Rev. 5 — Access Control and Identification & Authentication control families
+- CIS Critical Security Controls v8.1
+- ISO/IEC 27001:2022
 
 ## Lessons Learned
-Zero Trust is not a single product or an MFA deployment. Effective implementation requires coordinated identity governance, least privilege, segmentation, device/user verification, monitoring, policy enforcement and rapid response when trust conditions change.
+Zero Trust is an architecture and operating principle, not a product. Strong IAM reduces systemic risk when identities are explicitly verified, privileges are minimised, access is continuously reviewed and high-impact actions are observable.
 
 ## Disclaimer
-This project was completed in a simulated educational environment for cybersecurity training and portfolio demonstration. The organisation, systems, risks and assessment activities do not represent a production engagement with a real bank or client.
+This is an educational/simulated banking GRC case study. It does not represent a real bank's architecture, vulnerabilities, compliance status, penetration test or security assurance.
