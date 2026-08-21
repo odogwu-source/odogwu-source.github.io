@@ -1,30 +1,28 @@
 # Governance, Risk & Compliance (GRC) Portfolio
 
-Eight structured cybersecurity governance and risk case studies are organised here. Each project is an **educational/simulated assessment** designed to demonstrate analyst methodology, defensible risk decisions, control reasoning, remediation recommendations and evidence handling—not production client experience.
+Eight completed cybersecurity governance, risk and compliance case studies are organised here. Each project is an **educational/simulated assessment** designed to demonstrate analyst methodology, defensible risk decisions, control reasoning, remediation recommendations and evidence handling—not production client experience.
 
 ## Case Studies
 
 | # | Project | Primary Focus | Evidence Status |
 |---|---|---|---|
-| 01 | [Enterprise Cybersecurity Risk Management](./01-Enterprise-Risk-Management/) | Asset criticality, risk registers, likelihood/impact and risk treatment | Documented |
-| 02 | [Third-Party & Vendor Cyber Risk Assessment](./02-Third-Party-Vendor-Risk/) | TPRM, due diligence, supplier controls and residual risk | Documented |
-| 03 | [Cloud Security Risk Assessment](./03-Cloud-Risk-Assessment/) | Cloud IAM, configuration, data protection and shared responsibility | Documented |
-| 04 | [IT Readiness & Compliance Gap Assessment](./04-IT-Readiness-Compliance/) | Control evidence, gap analysis, remediation and audit readiness | Documented |
-| 05 | [Cybersecurity Incident Response Governance Assessment](./05-Incident-Response-Governance/) | Roles, escalation, evidence, recovery and post-incident governance | Documented |
+| 01 | [TechStart — ISO 27001 Cloud Risk Assessment](./01-TechStart-ISO27001-Cloud-Risk-Assessment/) | Cloud risk, treatment and ISO/IEC 27001 concepts | Evidence-backed |
+| 02 | [FinSecure — Third-Party Risk & PCI DSS](./02-FinSecure-Third-Party-Risk-PCI-DSS/) | TPRM, vendor risk and payment-security governance | Evidence-backed |
+| 03 | [DataFlow — SOC 2 Audit Readiness](./03-DataFlow-SOC2-Audit-Readiness/) | Control evidence, gap analysis and audit readiness | Evidence-backed |
+| 04 | [EuroShop — GDPR Compliance](./04-EuroShop-GDPR-Compliance/) | Privacy governance and data-processing risk | Evidence-backed |
+| 05 | [HealthTech — Incident Response & GRC](./05-HealthTech-Incident-Response-GRC/) | Incident governance, ISO 27001 controls and resilience | Evidence-backed |
 | 06 | [CriticalOps — OT/SCADA Business Continuity & Disaster Recovery](./06-CriticalOps-OT-SCADA-BCDR/) | Critical operations, ransomware, backups, redundancy and resilience | Evidence-backed |
 | 07 | [MindfulAI — Responsible AI Governance & Risk Assessment](./07-MindfulAI-AI-Governance-Risk/) | AI governance, privacy, security, bias and human oversight | Evidence-backed |
 | 08 | [SecureBank — Zero Trust, IAM & Access-Control Risk Assessment](./08-SecureBank-Zero-Trust-IAM-Risk/) | Banking IAM, privileged access, authentication and Zero Trust | Evidence-backed |
 
 ## Core Capabilities Demonstrated
-Risk assessment · asset classification · risk-register development · likelihood/impact scoring · inherent/residual risk reasoning · control assessment · evidence evaluation · third-party risk management · compliance readiness · remediation planning · incident-response governance · business continuity · disaster recovery · OT/SCADA resilience · Responsible AI governance · IAM · privileged access · Zero Trust
+Risk assessment · asset classification · risk-register development · likelihood/impact scoring · control assessment · evidence evaluation · third-party risk management · compliance readiness · privacy governance · remediation planning · incident-response governance · business continuity · disaster recovery · OT/SCADA resilience · Responsible AI governance · IAM · privileged access · Zero Trust
 
-## Framework & Standards Coverage
-The portfolio applies recognised frameworks selectively according to the project context, including **NIST CSF 2.0, NIST SP 800-30, NIST SP 800-61, NIST SP 800-82, NIST SP 800-207, NIST AI RMF, ISO/IEC 27001, ISO/IEC 27005, ISO/IEC 42001, ISO/IEC 23894, ISO 22301, IEC 62443, CIS Controls, COBIT and CSA CCM**. References indicate analytical alignment and learning; they do not imply certification or formal assurance.
+## Portfolio Coverage
+The eight projects deliberately span different GRC domains rather than repeating one exercise: ISO/IEC 27001 cloud risk, third-party/PCI DSS risk, SOC 2 readiness, GDPR privacy, incident-response governance, OT/SCADA resilience and BCDR, Responsible AI governance, and banking Zero Trust/IAM risk.
 
 ## How to Review the Portfolio
-Open a numbered project and begin with its `README.md`. Each case study follows a consistent recruiter-facing structure: **Executive Summary → Scenario → Objectives → Environment/Tools → Methodology → Investigation/Assessment → Key Findings → Risk/Security Analysis → Controls & Recommendations → Evidence → Skills Demonstrated → Frameworks/Standards → Lessons Learned → Disclaimer**.
-
-For Projects 06–08, the `evidence/` folders contain curated screenshot sequences designed to show the assessment story in analytical order rather than as an unstructured image dump.
+Open a numbered project and begin with its `README.md`. Review the scenario, objectives, methodology, findings, risk/control analysis, recommendations and supporting evidence. Projects 06–08 also use dedicated `EVIDENCE.md` indexes and curated `evidence/` directories; Projects 01–05 retain their original numbered screenshot evidence directories.
 
 ## Evidence & Ethics Statement
 All organisations, systems, findings and risk scenarios in these case studies are fictional or training-derived unless explicitly stated otherwise. Portfolio artefacts demonstrate learning and analytical capability. No project is represented as a production audit, consulting engagement, certification assessment, penetration test or security assurance performed for a real organisation.
