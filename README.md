@@ -1,35 +1,43 @@
-# Cybersecurity Portfolio
+# Michael Nweke — Cybersecurity Portfolio
 
-A practical portfolio organised into three professional tracks: **Security Operations (SOC)**, **Governance, Risk & Compliance (GRC)**, and **Cybersecurity Awareness & Training**.
+Practical, evidence-led cybersecurity portfolio organised into three professional tracks: **Security Operations (SOC)**, **Governance, Risk & Compliance (GRC)**, and **Cybersecurity Awareness & Human Risk**.
 
-> **Portfolio note:** Lab and simulation projects are clearly identified as educational/practice work. They demonstrate hands-on methodology, analysis, evidence handling and documentation; they are not presented as production audits, attestations or client engagements.
+My portfolio demonstrates how I investigate security events, assess cyber risk, analyse controls, document evidence and translate technical findings into practical security decisions.
+
+> **Evidence & ethics:** Lab and simulation projects are explicitly identified as educational/practice work. They demonstrate methodology, analysis, evidence handling and documentation; they are not presented as production audits, client engagements, compliance attestations or penetration tests against real organisations.
 
 ## Portfolio Tracks
 
-### 1. SOC Portfolio
-Hands-on investigations and defensive-security work covering phishing triage, SIEM/log analysis, alert classification, IOC analysis, incident documentation, escalation and remediation.
+### 1. Security Operations (SOC)
+Hands-on defensive-security work covering phishing triage, SIEM/log analysis, alert classification, IOC analysis, incident documentation, escalation and remediation.
+
+**Recruiter focus:** investigation workflow · evidence interpretation · 5Ws analysis · True/False Positive decisions · containment/remediation reasoning
 
 [Open SOC Portfolio](./SOC-Portfolio/)
 
-### 2. GRC Portfolio
-Eight evidence-backed simulations covering ISO/IEC 27001 cloud risk, PCI DSS third-party risk, SOC 2 audit readiness, GDPR privacy, incident-response governance, OT/SCADA business continuity and disaster recovery, AI governance, and banking Zero Trust/IAM risk.
+### 2. Governance, Risk & Compliance (GRC)
+Eight structured case studies covering cloud and enterprise risk, third-party risk, compliance readiness, incident-response governance, OT/SCADA resilience and BCDR, Responsible AI governance, and Zero Trust/IAM risk.
+
+**Recruiter focus:** risk registers · likelihood/impact analysis · control assessment · evidence quality · remediation planning · framework mapping · governance documentation
 
 [Open GRC Portfolio](./GRC-Portfolio/)
 
-### 3. Cybersecurity Awareness
-Security-awareness programme materials covering phishing/social engineering, employee training, assessment, simulated scenarios, metrics and management reporting.
+### 3. Cybersecurity Awareness & Human Risk
+Security-awareness programme materials covering phishing/social engineering, employee education, assessment, simulated scenarios, metrics and management reporting.
+
+**Recruiter focus:** human-risk reduction · awareness design · phishing scenarios · learner assessment · reporting readiness · security culture
 
 [Open Cybersecurity Awareness](./Cybersecurity-Awareness/)
 
 ## Core Competencies
-**SOC & Defensive Security:** SIEM · alert triage · phishing investigation · log analysis · IOC analysis · incident response
+**SOC & Defensive Security:** SIEM · alert triage · phishing investigation · log analysis · IOC analysis · incident response · escalation · remediation
 
-**GRC:** ISO/IEC 27001 · SOC 2 · PCI DSS · GDPR · risk assessment · control mapping · third-party risk · audit readiness · BCDR · OT/SCADA resilience · AI governance · IAM · Zero Trust
+**GRC & Resilience:** cyber risk assessment · control analysis · third-party risk · compliance readiness · evidence management · BCDR · OT/SCADA resilience · AI governance · IAM · privileged access · Zero Trust
 
-**Awareness & Human Risk:** social engineering · phishing awareness · employee education · knowledge assessment · security culture · reporting readiness
+**Awareness & Human Risk:** social engineering · phishing awareness · employee education · knowledge assessment · security culture · management reporting
 
 ## Certifications
-CompTIA Security+ · CompTIA Network+ · CompTIA CySA+ · Certified Ethical Hacker (CEH)
+**CompTIA Security+ · CompTIA Network+ · CompTIA CySA+ · Certified Ethical Hacker (CEH)**
 
 ## Repository Structure
 ```text
@@ -42,4 +50,7 @@ styles.css
 script.js
 ```
 
-The repository is intentionally organised so recruiters and hiring managers can enter through the main portfolio and then move directly to the specialism most relevant to the role.
+## How to Review
+Recruiters and hiring managers can start with the professional track most relevant to the role. Individual project READMEs explain the scenario, objectives, methodology, findings, security/risk analysis, controls, evidence, demonstrated skills, referenced frameworks and lessons learned.
+
+The portfolio is intentionally structured around **evidence over claims**: where screenshots or supporting records exist, they are curated to show the analytical sequence rather than uploaded as an unstructured collection.
