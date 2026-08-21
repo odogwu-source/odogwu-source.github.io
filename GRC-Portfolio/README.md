@@ -1,31 +1,32 @@
-# GRC Portfolio
+# Governance, Risk & Compliance (GRC) Portfolio
 
-Eight completed governance, risk and compliance case studies are organised here. Each project was completed in an educational simulation environment and is presented transparently as portfolio work. The emphasis is on analyst methodology, defensible risk decisions, control reasoning, remediation recommendations and supporting evidence—not on claiming production client experience.
+Eight structured cybersecurity governance and risk case studies are organised here. Each project is an **educational/simulated assessment** designed to demonstrate analyst methodology, defensible risk decisions, control reasoning, remediation recommendations and evidence handling—not production client experience.
 
-| # | Project | Primary Focus | Portfolio Evidence |
+## Case Studies
+
+| # | Project | Primary Focus | Evidence Status |
 |---|---|---|---|
-| 01 | [TechStart — ISO 27001 Cloud Risk Assessment](./01-TechStart-ISO27001-Cloud-Risk-Assessment/) | Cloud risk, treatment and ISO/IEC 27001 concepts | Documented |
-| 02 | [FinSecure — Third-Party Risk & PCI DSS](./02-FinSecure-Third-Party-Risk-PCI-DSS/) | TPRM, vendor risk and payment-security governance | Documented |
-| 03 | [DataFlow — SOC 2 Audit Readiness](./03-DataFlow-SOC2-Audit-Readiness/) | Control evidence, gap analysis and audit readiness | Documented |
-| 04 | [EuroShop — GDPR Compliance](./04-EuroShop-GDPR-Compliance/) | Privacy governance and data-processing risk | Documented |
-| 05 | [HealthTech — Incident Response & GRC](./05-HealthTech-Incident-Response-GRC/) | Incident governance, ISO 27001 controls and resilience | Documented |
-| 06 | [CriticalOps — OT/SCADA Business Continuity & Disaster Recovery](./06-CriticalOps-OT-SCADA-BCDR/) | Critical infrastructure, BCDR, OT resilience and ISO 27001 | Evidence-backed |
-| 07 | [MindfulAI — AI Governance & Responsible AI Risk](./07-MindfulAI-AI-Governance-Risk/) | AI governance, model risk, bias, privacy and human oversight | Evidence-backed |
-| 08 | [SecureBank — Zero Trust, IAM & Access-Control Risk](./08-SecureBank-Zero-Trust-IAM-Risk/) | Banking IAM, privileged access, Zero Trust and risk assessment | Evidence-backed |
+| 01 | [Enterprise Cybersecurity Risk Management](./01-Enterprise-Risk-Management/) | Asset criticality, risk registers, likelihood/impact and risk treatment | Documented |
+| 02 | [Third-Party & Vendor Cyber Risk Assessment](./02-Third-Party-Vendor-Risk/) | TPRM, due diligence, supplier controls and residual risk | Documented |
+| 03 | [Cloud Security Risk Assessment](./03-Cloud-Risk-Assessment/) | Cloud IAM, configuration, data protection and shared responsibility | Documented |
+| 04 | [IT Readiness & Compliance Gap Assessment](./04-IT-Readiness-Compliance/) | Control evidence, gap analysis, remediation and audit readiness | Documented |
+| 05 | [Cybersecurity Incident Response Governance Assessment](./05-Incident-Response-Governance/) | Roles, escalation, evidence, recovery and post-incident governance | Documented |
+| 06 | [CriticalOps — OT/SCADA Business Continuity & Disaster Recovery](./06-CriticalOps-OT-SCADA-BCDR/) | Critical operations, ransomware, backups, redundancy and resilience | Evidence-backed |
+| 07 | [MindfulAI — Responsible AI Governance & Risk Assessment](./07-MindfulAI-AI-Governance-Risk/) | AI governance, privacy, security, bias and human oversight | Evidence-backed |
+| 08 | [SecureBank — Zero Trust, IAM & Access-Control Risk Assessment](./08-SecureBank-Zero-Trust-IAM-Risk/) | Banking IAM, privileged access, authentication and Zero Trust | Evidence-backed |
 
 ## Core Capabilities Demonstrated
-Risk assessment · risk registers · control mapping · third-party risk management · privacy governance · audit readiness · evidence management · remediation tracking · incident-response governance · business continuity · disaster recovery · OT/SCADA resilience · AI governance · model risk · IAM · privileged access · Zero Trust · policy governance
+Risk assessment · asset classification · risk-register development · likelihood/impact scoring · inherent/residual risk reasoning · control assessment · evidence evaluation · third-party risk management · compliance readiness · remediation planning · incident-response governance · business continuity · disaster recovery · OT/SCADA resilience · Responsible AI governance · IAM · privileged access · Zero Trust
 
-## Portfolio Coverage
-The projects deliberately span different GRC domains rather than repeating a single compliance exercise. Together they demonstrate cloud and ISO 27001 risk assessment, third-party and PCI DSS risk, SOC 2 readiness, GDPR privacy, incident-response governance, OT/SCADA resilience and BCDR, AI governance, and banking Zero Trust/IAM risk.
+## Framework & Standards Coverage
+The portfolio applies recognised frameworks selectively according to the project context, including **NIST CSF 2.0, NIST SP 800-30, NIST SP 800-61, NIST SP 800-82, NIST SP 800-207, NIST AI RMF, ISO/IEC 27001, ISO/IEC 27005, ISO/IEC 42001, ISO/IEC 23894, ISO 22301, IEC 62443, CIS Controls, COBIT and CSA CCM**. References indicate analytical alignment and learning; they do not imply certification or formal assurance.
 
 ## How to Review the Portfolio
-For each numbered project, start with its `README.md` for the case-study narrative. Where available, use `EVIDENCE.md` and the `evidence/` directory to review the supporting simulation records and the curated recruiter-facing evidence sequence.
+Open a numbered project and begin with its `README.md`. Each case study follows a consistent recruiter-facing structure: **Executive Summary → Scenario → Objectives → Environment/Tools → Methodology → Investigation/Assessment → Key Findings → Risk/Security Analysis → Controls & Recommendations → Evidence → Skills Demonstrated → Frameworks/Standards → Lessons Learned → Disclaimer**.
+
+For Projects 06–08, the `evidence/` folders contain curated screenshot sequences designed to show the assessment story in analytical order rather than as an unstructured image dump.
 
 ## Evidence & Ethics Statement
-All organisations and scenarios in these case studies are simulated. Screenshots and records are retained as educational evidence only. No project is represented as a production audit, consulting engagement or assessment performed for a real client.
-
-## Web Case-Study Pages
-The HTML pages in this folder provide a recruiter-friendly presentation layer for selected GRC topics. The numbered project folders contain the underlying project documentation and evidence structure.
+All organisations, systems, findings and risk scenarios in these case studies are fictional or training-derived unless explicitly stated otherwise. Portfolio artefacts demonstrate learning and analytical capability. No project is represented as a production audit, consulting engagement, certification assessment, penetration test or security assurance performed for a real organisation.
 
 [Return to main portfolio](../index.html)
