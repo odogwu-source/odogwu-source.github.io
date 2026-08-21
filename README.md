@@ -12,7 +12,7 @@ Hands-on investigations and defensive-security work covering phishing triage, SI
 [Open SOC Portfolio](./SOC-Portfolio/)
 
 ### 2. GRC Portfolio
-Five completed evidence-backed simulations covering ISO/IEC 27001 risk assessment, PCI DSS third-party risk, SOC 2 audit readiness, GDPR compliance and healthcare incident-response governance.
+Eight evidence-backed simulations covering ISO/IEC 27001 cloud risk, PCI DSS third-party risk, SOC 2 audit readiness, GDPR privacy, incident-response governance, OT/SCADA business continuity and disaster recovery, AI governance, and banking Zero Trust/IAM risk.
 
 [Open GRC Portfolio](./GRC-Portfolio/)
 
@@ -24,7 +24,7 @@ Security-awareness programme materials covering phishing/social engineering, emp
 ## Core Competencies
 **SOC & Defensive Security:** SIEM · alert triage · phishing investigation · log analysis · IOC analysis · incident response
 
-**GRC:** ISO/IEC 27001 · SOC 2 · PCI DSS · GDPR · risk assessment · control mapping · third-party risk · audit readiness
+**GRC:** ISO/IEC 27001 · SOC 2 · PCI DSS · GDPR · risk assessment · control mapping · third-party risk · audit readiness · BCDR · OT/SCADA resilience · AI governance · IAM · Zero Trust
 
 **Awareness & Human Risk:** social engineering · phishing awareness · employee education · knowledge assessment · security culture · reporting readiness
 
