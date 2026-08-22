@@ -73,6 +73,20 @@ The evidence supported suspicious activity involving a sensitive network share a
 - The combined evidence justified a True Positive classification.
 - At this investigation stage, DNS exfiltration remained a hypothesis requiring additional evidence.
 
+## Evidence Progression
+
+This foundational write-up intentionally does **not duplicate the screenshot files** from the later investigation. The supporting telemetry was subsequently preserved and organised in the evidence-rich **Multi-Stage Endpoint Compromise** project, where the same host activity is reconstructed across five correlated alerts.
+
+Reviewers can follow the supporting evidence in this order:
+
+1. **Network-share mapping and PowerShell correlation** — [Endpoint Case 1 evidence](../02-Multi-Stage-Endpoint-Compromise/#endpoint-case-1--network-drive-mapping--suspicious-data-staging)
+2. **Repeated `nslookup.exe` / DNS activity** — [Endpoint Case 2 evidence](../02-Multi-Stage-Endpoint-Compromise/#endpoint-case-2--repeated-nslookup--suspected-dns-exfiltration)
+3. **PowerView reconnaissance** — [Endpoint Case 3 evidence](../02-Multi-Stage-Endpoint-Compromise/#endpoint-case-3--powerview-powershell-reconnaissance)
+4. **Network-drive cleanup following staging** — [Endpoint Case 4 evidence](../02-Multi-Stage-Endpoint-Compromise/#endpoint-case-4--network-drive-disconnection-following-data-staging)
+5. **PowerShell → `nslookup.exe` parent-child correlation** — [Endpoint Case 5 evidence](../02-Multi-Stage-Endpoint-Compromise/#endpoint-case-5--suspicious-parent-child--dns-exfiltration-activity)
+
+This approach avoids presenting the same screenshots as evidence for two supposedly independent projects while still allowing every analytical claim in this foundational case to be traced to the later preserved telemetry.
+
 ## Recommended Response
 
 - Isolate or contain the endpoint if activity is ongoing or meets the organisation's containment threshold.
