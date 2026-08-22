@@ -5,6 +5,12 @@
 ## Executive Summary
 This project evaluates identity and access-management risk across simulated critical banking assets. It demonstrates how privileged-account compromise, weak authentication, excessive access and privilege escalation can create systemic risk, and how Zero Trust principles can guide proportionate access-control improvements.
 
+## Assessment Snapshot
+- **Domain:** IAM, privileged access and Zero Trust
+- **Primary risks:** privileged compromise, weak authentication, excessive access and IAM escalation
+- **Curated evidence:** 7 screenshots
+- **Decision focus:** explicit verification, least privilege, access governance and observability
+
 ## Scenario
 A simulated banking environment contains critical customer, transaction, identity and monitoring systems. The assessment evaluates whether authentication, privilege management and access-control weaknesses could enable account takeover, fraud, sensitive-data exposure or wider compromise.
 
@@ -25,7 +31,7 @@ Educational GRC simulation, critical-asset inventory, IAM/access-control risk re
 4. Assessed business consequences across confidentiality, integrity and availability.
 5. Recommended preventive, detective and governance controls.
 
-## Investigation or Assessment
+## Assessment
 The assessment considered privileged-account compromise, online-banking authentication, customer-database access, payment-processing privileges and IAM privilege escalation. Particular attention was given to risks capable of crossing system boundaries through trusted identities.
 
 ## Key Findings
@@ -35,7 +41,14 @@ The evidence demonstrates critical privileged-access and authentication exposure
 Identity is a primary security control plane. Excessive standing privilege, weak authentication and inadequate access governance can turn a single compromised account into broad enterprise exposure. Zero Trust therefore requires explicit verification, least privilege and continuous evaluation rather than implicit trust based on network location.
 
 ## Controls and Recommendations
-Require phishing-resistant MFA where feasible for privileged/high-risk access; implement least privilege and RBAC/ABAC as appropriate; use privileged access management; separate administrative identities; adopt just-in-time/time-bound privileged access; perform periodic access reviews; monitor anomalous authentication and privilege changes; protect service accounts and secrets; segment critical services; and maintain auditable joiner-mover-leaver processes.
+- Require phishing-resistant MFA where feasible for privileged/high-risk access.
+- Implement least privilege and appropriate RBAC/ABAC controls.
+- Use privileged access management and separate administrative identities.
+- Prefer just-in-time/time-bound privileged access where appropriate.
+- Perform periodic access reviews and maintain auditable joiner-mover-leaver processes.
+- Monitor anomalous authentication and privilege changes.
+- Protect service accounts, secrets and machine identities.
+- Segment critical services and maintain visibility into high-impact access paths.
 
 ## Evidence
 The final recruiter-facing evidence set contains seven screenshots:
@@ -59,6 +72,9 @@ IAM risk assessment; Zero Trust reasoning; privileged-access analysis; authentic
 - NIST SP 800-53 Rev. 5 — Access Control and Identification & Authentication control families
 - CIS Critical Security Controls v8.1
 - ISO/IEC 27001:2022
+
+## Project Outcomes
+The project produced a traceable IAM-risk case study connecting critical assets, identity threat scenarios, business impact, risk prioritisation and Zero Trust-aligned control recommendations.
 
 ## Lessons Learned
 Zero Trust is an architecture and operating principle, not a product. Strong IAM reduces systemic risk when identities are explicitly verified, privileges are minimised, access is continuously reviewed and high-impact actions are observable.
