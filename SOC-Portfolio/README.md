@@ -7,10 +7,10 @@ Hands-on defensive-security casework demonstrating alert triage, Splunk SIEM inv
 ## Featured Investigation
 
 ### Multi-Stage Endpoint Compromise — PowerShell, Reconnaissance, Data Staging & Suspected DNS Exfiltration
-A six-alert TryHackMe SOC investigation on `win-3450` reconstructed through Splunk, Sysmon and PowerShell telemetry. The case covers phishing triage, network-share activity, PowerShell process correlation, archive staging, PowerView reconnaissance, repeated `nslookup.exe` activity and suspected DNS-based exfiltration.
+A five-alert TryHackMe endpoint investigation on `win-3450` reconstructed through Splunk, Sysmon and PowerShell telemetry. The correlated sequence covers sensitive network-share access, PowerShell process activity, archive/data staging, PowerView reconnaissance, drive cleanup, repeated `nslookup.exe` activity and suspected DNS-based exfiltration.
 
-**Evidence:** 37 screenshots organised across SOC 1–SOC 6.  
-**Outcome:** All six alerts classified as True Positive; five required escalation.
+**Evidence:** 30 screenshots organised across five correlated endpoint cases.  
+**Outcome:** All five endpoint alerts classified as **True Positive** and escalated based on correlated evidence.
 
 [Open the Endpoint & SIEM investigation](02-Multi-Stage-Endpoint-Compromise/)
 
@@ -20,7 +20,7 @@ A focused process-chain investigation covering PowerShell, `nslookup.exe`, `net.
 [Open SOC Case 01](01-PowerShell-Network-Share-Investigation/)
 
 ## Phishing Investigation & Incident Triage
-A separate evidence-backed phishing repository covering email triage, SIEM correlation, IOC analysis, True/False Positive decisions, 5Ws documentation, escalation and remediation.
+Phishing and suspicious-email investigations are maintained separately so email-security evidence is not mixed with endpoint-compromise casework. The dedicated repository includes the **22 August 2026 Suspicious External Email / Inheritance Phishing (Alert 1000)** case together with other evidence-backed phishing investigations.
 
 [Open the SOC Phishing Investigation repository](https://github.com/odogwu-source/SOC-PHISHING-INVESTIGATION)
 
