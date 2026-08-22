@@ -14,10 +14,10 @@ A five-alert TryHackMe endpoint investigation on `win-3450` reconstructed throug
 
 [Open the Endpoint & SIEM investigation](02-Multi-Stage-Endpoint-Compromise/)
 
-## SOC Case 01 — Suspicious PowerShell & Network Share Activity
-A focused process-chain investigation covering PowerShell, `nslookup.exe`, `net.exe`, sensitive network-share context and evidence-based True Positive classification.
+## Foundational Case — PowerShell & Network Share Investigation
+An earlier focused analysis of the same host activity, retained to demonstrate progression from **single-alert/process-chain reasoning** to the broader **multi-alert incident reconstruction** above. It emphasizes evidence discipline: distinguishing suspicious telemetry from conclusions that had not yet been fully established.
 
-[Open SOC Case 01](01-PowerShell-Network-Share-Investigation/)
+[Open the foundational investigation](01-PowerShell-Network-Share-Investigation/)
 
 ## Phishing Investigation & Incident Triage
 Phishing and suspicious-email investigations are maintained separately so email-security evidence is not mixed with endpoint-compromise casework. The dedicated repository includes the **22 August 2026 Suspicious External Email / Inheritance Phishing (Alert 1000)** case together with other evidence-backed phishing investigations.
