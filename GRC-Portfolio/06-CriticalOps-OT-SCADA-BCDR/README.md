@@ -5,6 +5,12 @@
 ## Executive Summary
 This project assesses business continuity and disaster-recovery risk in a simulated operational technology (OT)/SCADA environment. It demonstrates how critical operational assets, ransomware exposure, backup/recovery controls and redundancy weaknesses can be converted into risk-based resilience decisions.
 
+## Assessment Snapshot
+- **Domain:** OT/SCADA resilience and BCDR
+- **Priority findings:** Critical ransomware exposure, backup-failure risk and redundancy gap
+- **Curated evidence:** 6 screenshots
+- **Decision focus:** recoverability, redundancy, operational impact and resilience
+
 ## Scenario
 A simulated critical-operations environment depends on OT/SCADA assets whose prolonged loss could disrupt essential operations. The assessment evaluates ransomware and availability threats, recovery capability and whether resilience controls are sufficient for high-impact systems.
 
@@ -25,17 +31,24 @@ Educational GRC simulation, OT/SCADA asset inventory, risk register, likelihood-
 4. Assessed backup/recovery and redundancy control effectiveness.
 5. Prioritised treatment actions according to operational consequence.
 
-## Investigation or Assessment
+## Assessment
 The assessment examined whether critical assets were inventoried, whether ransomware could create unacceptable operational disruption, whether backups were sufficiently recoverable and whether redundancy provided genuine resilience rather than a single hidden dependency.
 
 ## Key Findings
-The curated evidence demonstrates a Critical ransomware exposure, a material backup-failure risk, a documented backup/recovery control and a redundancy-effectiveness gap. Together these findings show that resilience requires both recoverable data and alternative operational capability.
+The curated evidence demonstrates a **Critical ransomware exposure**, a material backup-failure risk, a documented backup/recovery control and a redundancy-effectiveness gap. Together these findings show that resilience requires both recoverable data and alternative operational capability.
 
 ## Risk / Security Analysis
 For OT/SCADA environments, availability and safety-related consequences can dominate traditional information-security priorities. Recovery controls must therefore be evaluated for actual restoration capability, isolation, dependency and operational recovery time—not simply for the existence of backups.
 
 ## Controls and Recommendations
-Maintain offline/immutable backup capability where appropriate; define and test recovery procedures; establish business-defined RTO/RPO targets; test restoration; reduce single points of failure; segment OT and IT networks; restrict privileged access; monitor critical systems; maintain incident and continuity playbooks; and conduct periodic resilience exercises.
+- Maintain offline/immutable backup capability where appropriate.
+- Define and test recovery procedures and restoration capability.
+- Establish business-defined RTO/RPO targets.
+- Reduce single points of failure and validate redundancy.
+- Segment OT and IT networks according to operational/security requirements.
+- Restrict and monitor privileged access.
+- Maintain incident, continuity and disaster-recovery playbooks.
+- Conduct periodic resilience and restoration exercises.
 
 ## Evidence
 The final recruiter-facing evidence set contains six screenshots:
@@ -58,6 +71,9 @@ OT/SCADA risk assessment; BCDR analysis; ransomware-risk analysis; asset critica
 - NIST SP 800-34 Rev. 1 — Contingency Planning Guide for Federal Information Systems
 - ISO 22301:2019 — Business Continuity Management Systems
 - IEC 62443 series — industrial automation and control systems security
+
+## Project Outcomes
+The project produced an evidence-backed resilience assessment linking critical assets, operational risks, recovery controls, redundancy weaknesses and prioritised treatment actions.
 
 ## Lessons Learned
 A backup is not equivalent to recoverability, and redundancy is not equivalent to resilience. Critical operations require tested recovery paths, understood dependencies and controls designed around operational consequences.
