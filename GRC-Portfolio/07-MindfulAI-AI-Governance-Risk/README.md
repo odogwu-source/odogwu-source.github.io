@@ -5,8 +5,14 @@
 ## Executive Summary
 This project evaluates governance, privacy, security and human-oversight risks across simulated production AI systems. It demonstrates how an AI inventory can be converted into prioritised risk decisions covering model bias, sensitive-data exposure, model drift, prompt injection, explainability and human oversight.
 
+## Assessment Snapshot
+- **Domain:** Responsible AI / AI governance
+- **Risk themes:** bias, privacy, drift, prompt injection, explainability and human oversight
+- **Curated evidence:** 7 screenshots
+- **Governance focus:** inventory, accountability, lifecycle monitoring and proportionate controls
+
 ## Scenario
-A simulated organisation operates multiple AI systems supporting high-impact business functions. Management requires a defensible method for identifying AI-specific risks, quantifying their potential impact and selecting controls proportionate to the use case.
+A simulated organisation operates multiple AI systems supporting high-impact business functions. Management requires a defensible method for identifying AI-specific risks, evaluating their potential impact and selecting controls proportionate to the use case.
 
 ## Objectives
 - Build a risk-based inventory of AI systems and their criticality.
@@ -25,8 +31,8 @@ Educational GRC simulation, AI asset inventory, risk register, likelihood-impact
 4. Documented rationale, ownership and governance implications.
 5. Proposed technical and governance controls across the AI lifecycle.
 
-## Investigation or Assessment
-The assessment considered model bias, privacy/data exposure, model drift, prompt injection, explainability and inadequate human oversight. The focus was not only whether a model functions, but whether its use remains secure, accountable, explainable and appropriately supervised.
+## Assessment
+The assessment considered model bias, privacy/data exposure, model drift, prompt injection, explainability and inadequate human oversight. The focus was not only whether a model functions, but whether its use remains secure, accountable, appropriately explainable and sufficiently supervised.
 
 ## Key Findings
 The evidence demonstrates material AI governance exposure across critical systems, including high-impact bias and privacy risks, AI-security risk and insufficient human oversight. These risks require lifecycle governance rather than a one-time model approval.
@@ -35,7 +41,14 @@ The evidence demonstrates material AI governance exposure across critical system
 AI risk can arise from data, model behaviour, user interaction and governance failures. High-impact use cases require stronger validation, monitoring, accountability and human intervention. Security controls must also account for AI-specific attack paths such as prompt injection and sensitive-data leakage.
 
 ## Controls and Recommendations
-Maintain an authoritative AI inventory; assign accountable owners; perform impact/risk assessments before deployment; test for bias and performance degradation; minimise and protect sensitive data; implement access controls and logging; evaluate prompt-injection/data-leakage protections for generative AI; define human-review thresholds; monitor model drift; document limitations; and periodically reassess high-impact systems.
+- Maintain an authoritative AI-system inventory and accountable owners.
+- Perform impact/risk assessments before deployment and after material change.
+- Test for bias, performance degradation and model drift.
+- Minimise and protect sensitive data used by AI systems.
+- Implement access controls, logging and monitoring.
+- Evaluate prompt-injection and data-leakage protections for generative AI use cases.
+- Define meaningful human-review and intervention thresholds.
+- Document model limitations and periodically reassess high-impact systems.
 
 ## Evidence
 The final recruiter-facing evidence set contains seven screenshots:
@@ -60,8 +73,11 @@ AI governance; Responsible AI risk assessment; AI asset inventory; model-risk re
 - ISO/IEC 23894:2023 — Artificial Intelligence Risk Management
 - NIST Cybersecurity Framework (CSF) 2.0
 
+## Project Outcomes
+The project produced a traceable AI-governance case study connecting system inventory, prioritised risk, human oversight, security/privacy considerations and lifecycle control recommendations.
+
 ## Lessons Learned
-AI governance must address more than model accuracy. Responsible operation depends on inventory, accountability, data governance, security, ongoing monitoring, explainability appropriate to the context and meaningful human oversight.
+AI governance must address more than model accuracy. Responsible operation depends on inventory, accountability, data governance, security, ongoing monitoring, explainability appropriate to context and meaningful human oversight.
 
 ## Disclaimer
 This project is an educational/simulated Responsible AI assessment. Names, systems, scores and findings are fictional or training-derived and do not constitute legal, regulatory, certification or production AI assurance.
