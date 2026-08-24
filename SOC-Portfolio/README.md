@@ -1,10 +1,20 @@
 # Security Operations (SOC) Portfolio
 
-Hands-on defensive-security casework demonstrating alert triage, Splunk SIEM investigation, Sysmon/process analysis, evidence correlation, incident classification, analyst documentation, escalation and remediation reasoning.
+Hands-on defensive-security casework demonstrating alert triage, SIEM investigation, Sysmon/process analysis, evidence correlation, incident classification, threat hunting, analyst documentation, escalation and remediation reasoning.
 
 > **Portfolio note:** SOC labs and simulations are identified as training work. The purpose is to demonstrate investigation methodology and analyst judgement, not to present simulated incidents as production SOC employment.
 
-## Featured Investigation
+## Featured Threat Hunting Investigation
+
+### Ransomware Intrusion — Credential Dumping, Remote PowerShell & Mass File Encryption
+A TryHackMe threat-hunting simulation reconstructing a multi-stage ransomware attack across `WKSTN-02` and `WKSTN-03`. The investigation correlates `Invoke-SharpKatz` credential dumping, PowerShell `Invoke-Command`, remote execution, malicious payload delivery from `7zipp.org`, `bomb.exe` execution and `.777zzz` file encryption.
+
+**Focus:** Threat hypothesis validation, Elastic/Kibana SIEM analysis, IOC extraction, MITRE ATT&CK mapping, attack-chain reconstruction, containment and remediation recommendations.  
+**Outcome:** Evidence supports a confirmed malicious ransomware sequence in a controlled training environment; observed telemetry and analyst inference are explicitly separated.
+
+[Open the Threat Hunting Ransomware investigation](03-Threat-Hunting-Ransomware-Investigation/)
+
+## Featured Endpoint Investigation
 
 ### Multi-Stage Endpoint Compromise — PowerShell, Reconnaissance, Data Staging & Suspected DNS Exfiltration
 A five-alert TryHackMe endpoint investigation on `win-3450` reconstructed through Splunk, Sysmon and PowerShell telemetry. The correlated sequence covers sensitive network-share access, PowerShell process activity, archive/data staging, PowerView reconnaissance, drive cleanup, repeated `nslookup.exe` activity and suspected DNS-based exfiltration.
@@ -25,18 +35,23 @@ Phishing and suspicious-email investigations are maintained separately so email-
 [Open the SOC Phishing Investigation repository](https://github.com/odogwu-source/SOC-PHISHING-INVESTIGATION)
 
 ## Analyst Workflow Demonstrated
-**Alert → Validate evidence → Correlate indicators → Determine scope → Classify → Document 5Ws → Escalate/contain → Recommend remediation → Record lessons learned**
+**Alert / Hypothesis → Validate evidence → Correlate indicators → Determine scope → Classify → Map ATT&CK → Document 5Ws → Escalate/contain → Recommend remediation → Record lessons learned**
 
 ## Core Skills Demonstrated
-- Splunk SIEM and Sysmon investigation
+- Splunk SIEM and Elastic/Kibana investigation
+- Threat-hunting hypothesis validation
+- Sysmon, Winlogbeat and Windows event analysis
 - PowerShell and script-block analysis
 - Parent-child process correlation
+- Credential-access and lateral-movement investigation
 - Network-share activity analysis
 - Active Directory reconnaissance detection
 - Data-staging identification
 - DNS anomaly and suspected exfiltration analysis
+- Ransomware and mass-file-encryption analysis
 - Phishing and suspicious-email triage
 - IOC analysis and documentation
+- MITRE ATT&CK mapping
 - True Positive / False Positive classification
 - 5Ws incident documentation
 - Escalation and remediation reasoning
